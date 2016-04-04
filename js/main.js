@@ -3,6 +3,7 @@ $(function(){
 	window.ftypes = new Array();
 	fnames[0]='EMAIL';
 	ftypes[0]='email';
+	var $mcj = jQuery.noConflict(true);
 	if(window.location.hash == '#thanks'){
 		$('#thanks-dialog').modal();
 	}
