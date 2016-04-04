@@ -15,6 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
         <link rel="stylesheet/less" type="text/css" href="less/main.less" />
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
@@ -85,6 +86,25 @@
                 <p>Made with &#9829; by <a href="https://musikee.com" target="_blank"><img src="img/musikee.png" /></a>
             </div>
         </footer>
+
+        <div class="modal fade" id="thanks-dialog" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Welcome aboard!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thanks for joining us! You will receive an email with the <b>link to sign in</b> to the #MusicBiz Slack Community!</p>
+                        <p>Meanwhile, please share #MusicBiz and help us to <b>grow the network</b>!</p>
+                        <p class="text-center">
+                            <button class="btn btn-fb btn-lg" onclick="fbShare('https://musicbiz.co/')"><i class="ion-social-facebook"></i> Share on Facebook</button>
+                            <button class="btn btn-twitter btn-lg" onclick="twShare('https://musicbiz.co/', 'Join #MusicBiz: the #Slack Community for the Music Industry')"><i class="ion-social-twitter"></i> Share on Twitter</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
