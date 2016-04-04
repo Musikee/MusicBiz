@@ -5,6 +5,8 @@ $(function(){
 	ftypes[0]='email';
 	var $mcj = jQuery.noConflict(true);
 	if(window.location.hash == '#thanks'){
+		console.log('hash', window.location.hash);
+		console.log($('#thanks-dialog'));
 		$('#thanks-dialog').modal();
 	}
 });
