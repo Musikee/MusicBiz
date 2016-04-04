@@ -1,0 +1,19 @@
+{
+  "name": "musicbiz",
+  "version": "1.0.0",
+  "description": "#MusicBiz landing",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musikee/MusicBiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Musikee/MusicBiz/issues"
+  },
+  "homepage": "https://github.com/Musikee/MusicBiz#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.2.0",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
