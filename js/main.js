@@ -6,6 +6,8 @@ $(function(){
 	var $mcj = jQuery.noConflict(true);
 	if(window.location.hash == '#thanks'){
 		$('#thanks-dialog').modal();
+		$('#mc_embed_signup').hide();
+		$('#signedup').show();
 	}
 });
 
